@@ -8,12 +8,35 @@ h1, h2, h3 { color: #1D3557; font-family: 'Montserrat', sans-serif; }
 
 h1 { font-size:3em; }
 
-p { margin: 10px 0;  }
+p { margin:10px 0;  }
 
 a { color:#E63946; text-decoration: none; }
 a:hover { opacity: 0.3; }
 
 td { padding: 10px; }
+
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background:#060C14;
+  color: #FFF;
+}
+#page-content {
+  margin: 0 0 0 100px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding:0 0 0 10px;
+}
+
+#sidebar li { margin: 0 0 10px 0;  }
+
+#sidebar a { color: #FFF;  }
 
 .container {
   width: 600px;   /* This sets the width */
@@ -47,6 +70,7 @@ td { padding: 10px; }
   text-align: center;
   border-radius: 3px;
  }
+
 .card img {width:100%; }
 
 a.btn-url {
@@ -54,7 +78,6 @@ a.btn-url {
   background: #E63946;
   color: #FFF;
   border-radius: 1px;
-  margin: 10px;
 }
 
 .img-circle {
