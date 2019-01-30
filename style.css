@@ -1,7 +1,7 @@
 body {
   background:#F1FAEE;
   font-family: 'Roboto', sans-serif;
-  font-size:13px;
+  font-size:14px;
    }
 
 h1, h2, h3 { color: #1D3557; font-family: 'Montserrat', sans-serif; }
@@ -54,6 +54,7 @@ a.btn-url {
   background: #E63946;
   color: #FFF;
   border-radius: 1px;
+  margin: 10px;
 }
 
 .img-circle {
