@@ -48,13 +48,11 @@ td { padding: 10px; }
  }
 .card img {width:100%; }
 
-.btn-url {
+a.btn-url {
   padding: 10px;
   background: #E63946;
   color: #FFF;
 }
-
-.btn-url a { color: #fff; }
 
 .img-circle {
   border-radius: 50%;
