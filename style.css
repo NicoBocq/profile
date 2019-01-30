@@ -45,6 +45,7 @@ td { padding: 10px; }
   margin: 0 0 20px 0;
   border: 1px solid lightgrey;
   text-align: center;
+  border-radius: 3px;
  }
 .card img {width:100%; }
 
@@ -52,6 +53,7 @@ a.btn-url {
   padding: 10px;
   background: #E63946;
   color: #FFF;
+  border-radius: 1px;
 }
 
 .img-circle {
