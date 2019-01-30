@@ -16,7 +16,7 @@ a:hover { opacity: 0.3; }
 td { padding: 10px; }
 
 .container {
-  width: 500px;   /* This sets the width */
+  width: 600px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -47,6 +47,14 @@ td { padding: 10px; }
   text-align: center;
  }
 .card img {width:100%; }
+
+.btn-url {
+  padding: 10px;
+  background: #E63946;
+  color: #FFF;
+}
+
+.btn-url a { color: #fff; }
 
 .img-circle {
   border-radius: 50%;
